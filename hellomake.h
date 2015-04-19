@@ -1,2 +1,0 @@
-int len;
-void examplefunction();

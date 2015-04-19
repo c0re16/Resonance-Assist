@@ -1,4 +1,4 @@
-main: hellomake.c hellofunc.c
+main: main.c modules.c
 	gcc -o resassist main.c modules.c -I .
 install: resassist
 	install resassist /usr/local/bin

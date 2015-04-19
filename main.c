@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <hellomake.h>
+#include <include.h>
 int main(int argc, char *argv[]) {
 len = atoi(argv[1]);
 examplefunction(len);

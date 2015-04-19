@@ -1,5 +1,5 @@
 main: hellomake.c hellofunc.c
-	gcc -o resassist hellomake.c hellofunc.c -I .
+	gcc -o resassist main.c modules.c -I .
 install: resassist
 	install resassist /usr/local/bin
 remove: 

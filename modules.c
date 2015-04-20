@@ -10,6 +10,6 @@ else { sol=300;}
 sol1 = sol;
 len1 = len;
 final=sol1/len1;
-printf("%f \n", final);
+printf("\nAntenna Length: %f Meters\n \n", final);
 return;
 }
